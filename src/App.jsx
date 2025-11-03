@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Mockup from "./components/Mockup";
+import FeaturedPosts from "./components/FeaturedPosts";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
       <Header />
       <main>
         <Hero />
-        <Mockup />
+        <FeaturedPosts />
       </main>
       <Footer />
     </div>
